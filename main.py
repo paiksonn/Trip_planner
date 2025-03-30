@@ -12,7 +12,7 @@ from telegram.ext import (
     filters,
 )
 
-TOKEN_AVIASALES = "7ee7bbfa029bf01c4fa9ac4cc171a222"
+TOKEN_AVIASALES = "NO NO NO mister"
 
 # Enable logging
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
@@ -204,7 +204,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     return ConversationHandler.END
 
 def main() -> None:
-    application = Application.builder().token("8026124099:AAHqoE_3tKKRfDYR46lx1ufNCyXlAXcAbNs").build()
+    application = Application.builder().token("NO NO NO mister").build()
 
     # Conversation handler for /plan_trip
     conv_handler = ConversationHandler(
